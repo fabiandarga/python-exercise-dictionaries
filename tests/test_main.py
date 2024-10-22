@@ -1,5 +1,5 @@
 import unittest
-from src.dictionary_uebungen import woerterbuch_umkehren, haeufigste_woerter, dictionaries_zusammenfuehren
+from src.main import woerterbuch_umkehren, haeufigste_woerter, dictionaries_zusammenfuehren
 
 
 class TestDictionaryUebungen(unittest.TestCase):
