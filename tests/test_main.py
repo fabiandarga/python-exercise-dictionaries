@@ -14,8 +14,7 @@ class TestDictionaryUebungen(unittest.TestCase):
 
     def test_haeufigste_woerter(self):
         text = "Der Hund läuft. Der Hund bellt. Die Katze miaut."
-        self.assertEqual(haeufigste_woerter(text, 2), {'der': 2, 'hund': 2})
-        self.assertEqual(haeufigste_woerter(text, 1), {'der': 2})
+        self.assertEqual(haeufigste_woerter(text), {'Der': 2, 'Hund': 2, 'läuft.': 1, 'bellt.': 1, 'Die': 1, 'Katze': 1, 'miaut.': 1})
 
         # Test mit leerem Text
         self.assertEqual(haeufigste_woerter("", 1), {})

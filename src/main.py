@@ -3,7 +3,7 @@ def woerterbuch_umkehren(dict):
     return
 
 
-def haeufigste_woerter(text, n):
+def haeufigste_woerter(text):
     # Implementierung hier
     return
 
